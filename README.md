@@ -1,20 +1,12 @@
-# food-delivery-website
-A responsive food ordering web application built with React, Redux, and Tailwind CSS. Users can browse food by categories, view items, add them to a cart, and place orders. It includes dynamic category filtering, toast notifications for actions, and a smooth, user-friendly UI.
-🚀 Features
-✅ Category Filter – Browse food items by categories like All, Fast Food, Beverages, etc.
+# React + Vite
 
-🛒 Add to Cart – Add and view selected food items with quantity and total price.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔄 Update Quantity – Increase or decrease item quantity directly from the cart.
+Currently, two official plugins are available:
 
-🧾 Remove Items – Delete individual items from the cart using a delete icon.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-📦 Order Summary Drawer – A responsive sliding cart panel showing selected items and price.
+## Expanding the ESLint configuration
 
-🔔 Toast Notifications – Feedback for actions like adding/removing items using react-toastify.
-
-🌙 Responsive Design – Mobile-friendly and smooth layout using Tailwind CSS.
-
-⚛️ State Management – Redux handles global cart state efficiently.
-
-💡 Modular Code Structure – Clean and reusable components (Card, Card2, Nav, etc.)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
